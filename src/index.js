@@ -2,7 +2,7 @@ import { asReduxStore } from "mobx-state-tree/middleware/redux"
 import { addMiddleware } from "mobx-state-tree"
 
 
-export default function createPlugin(logrocket, mobXStore, options) {
+export default function logStore(logrocket, mobXStore, options = {}) {
   const reduxMiddleware = logrocket.reduxMiddleware(options);
   const reduxStore = asReduxStore(mobXStore);
   

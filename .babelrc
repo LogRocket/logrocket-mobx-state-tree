@@ -4,8 +4,6 @@
     "stage-3"
   ],
   "plugins": [
-    "add-module-exports",
-    "transform-decorators-legacy",
-    "transform-class-properties"
+    "add-module-exports"
   ]
 }
