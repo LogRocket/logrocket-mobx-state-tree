@@ -8,7 +8,6 @@ export default function logStore(logrocket, mobXStore, options = {}) {
   
   const middlewareWithStore = reduxMiddleware(reduxStore);
   return addMiddleware(mobXStore, (call, next) => {
-    middlewareWithStore(next)(call);
-    return next(call);
+    return middlewareWithStore(next)(call);
   });
 }
