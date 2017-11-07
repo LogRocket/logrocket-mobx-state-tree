@@ -17,7 +17,8 @@
     "build": "babel src --out-dir dist"
   },
   "dependencies": {
-    "mobx-state-tree": "1.0.1"
+    "mobx-state-tree": "1.1.0",
+    "mst-middlewares": "^1.1.0"
   },
   "peerDependencies": {
     "mobx": "^3.1.15"
