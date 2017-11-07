@@ -1,6 +1,6 @@
 {
   "name": "logrocket-mobx-state-tree",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MobX-state-tree plugin for [LogRocket](https://logrocket.com/).",
   "main": "dist/index.js",
   "author": "Logrocket <support@logrocket.com> (https://logrocket.com/)",
